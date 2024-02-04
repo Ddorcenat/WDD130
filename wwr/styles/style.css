@@ -24,5 +24,48 @@ main section{
 
 #background{
    height: 725px;
-    background-color: aquamarine;
+    background-color: antiquewhite;
+}
+body{
+    background-color: antiquewhite;
+}
+header{
+    background-color: antiquewhite;
+}
+nav a:hover{
+    background-color: antiquewhite;
+}
+.book, .join{
+    background-color: antiquewhite;
+}
+.book:hover, .join:hover{
+    background-color: antiquewhite;
+}
+.msg{
+    background-color: antiquewhite;
+}
+footer{
+    background-color: antiquewhite;
+    color: bisque;
+}
+nav a:hover{
+    color: bisque;
+}
+.home-title{ 
+    color: blanchedalmond;
+}
+.book:hover, .join:hover{
+    color: antiquewhite;
+}
+.msg h2{
+    color: bisque;
+}
+.msg p{
+    color: bisque;
+}
+footer a:hover{
+    color: antiquewhite;
+}
+.icon{
+    width: 80px;
 }
