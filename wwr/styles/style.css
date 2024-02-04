@@ -3,3 +3,9 @@
     margin: 0 auto;
 }
  
+nav a{
+    text-align: center;
+    color: bisque;
+    text-decoration: none;
+    padding: 35px;
+}
