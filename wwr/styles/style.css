@@ -58,13 +58,13 @@ nav a:hover{
     color: antiquewhite;
 }
 .msg h2{
-    color: bisque;
+    color: rgb(13, 12, 10);
 }
 .msg p{
-    color: bisque;
+    color: rgb(53, 111, 181);
 }
 footer a:hover{
-    color: antiquewhite;
+    color: rgb(55, 111, 203);
 }
 .icon{
     width: 80px;
