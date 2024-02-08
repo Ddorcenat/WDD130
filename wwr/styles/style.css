@@ -28,21 +28,34 @@ main section{
 }
 body{
     background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
 }
 header{
-    background-color: antiquewhite;
+    background-color: rgb(238, 136, 12);
 }
 nav a:hover{
     background-color: antiquewhite;
 }
 .book, .join{
     background-color: antiquewhite;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: antiquewhite;
 }
 .msg{
     background-color: antiquewhite;
+    background-color: rgb(219, 172, 141);
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: antiquewhite;
@@ -53,21 +66,28 @@ nav a:hover{
 }
 .home-title{ 
     color: blanchedalmond;
+    margin-top: 50px;
 }
 .book:hover, .join:hover{
     color: antiquewhite;
 }
 .msg h2{
     color: rgb(13, 12, 10);
+    font-family: 'rock salt', 'Bradley Hand';
+    font-size: 2em;
 }
 .msg p{
     color: rgb(53, 111, 181);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 8em;
+    padding-bottom: 15px;
 }
 footer a:hover{
     color: rgb(55, 111, 203);
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 .logo{
     width: 80px;
@@ -77,6 +97,8 @@ footer a:hover{
 }
 .book, .join{
     text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
 }
 footer a{
     text-decoration: none;
@@ -86,4 +108,23 @@ footer p{
 }
 footer p a:hover{
     text-decoration: underline;
+}
+#logo_link{ 
+    padding-top: 5px;
+}
+footer{
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{ 
+    border: 10px solid #d9c2a3;
+}
+main section img{
+    box-sizing: border-box;
 }
