@@ -24,7 +24,7 @@ main section{
 
 #background{
    height: 725px;
-    background-color: antiquewhite;
+    background-color: rgba(238, 201, 152, 0.517);
 }
 body{
     background-color: antiquewhite;
@@ -78,8 +78,6 @@ nav a:hover{
 }
 .msg p{
     color: rgb(53, 111, 181);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 8em;
     padding-bottom: 15px;
 }
 footer a:hover{
