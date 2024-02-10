@@ -37,10 +37,10 @@ h2{
     margin: 0;
 }
 header{
-    background-color: rgb(238, 136, 12);
+    background-color: rgba(241, 152, 42, 0.521);
 }
 nav a:hover{
-    background-color: antiquewhite;
+    background-color: rgb(52, 52, 45);
 }
 .book, .join{
     background-color: antiquewhite;
