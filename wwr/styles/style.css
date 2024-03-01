@@ -59,7 +59,7 @@ nav a:hover{
     background-color: antiquewhite;
     background-color: rgb(219, 172, 141);
     padding: 35px;
-    grid-auto-columns: 6/10 0;
+    grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
 }
@@ -202,6 +202,8 @@ nav a {
 }
 .home-grid { 
     display: grid;
+    grid-template-columns: repeat(10, 1fr);
+
 }
 .card-img {
     border: 10px solid #d9c2a3;
