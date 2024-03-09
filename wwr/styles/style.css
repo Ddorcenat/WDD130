@@ -64,7 +64,7 @@ nav a:hover{
     box-shadow: 5px 5px 10px #6f7364;
 }
 footer{
-    background-color: antiquewhite;
+    background-color: rgb(94, 145, 165);
     color: bisque;
     padding: 25px 50px;
     margin-top: 200px;
@@ -217,7 +217,14 @@ nav a {
 #hero-msg h1{ 
     text-align: center;
 }
-       
+#blogbackground{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+#hero-msg #darker-text{
+    color: black;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
