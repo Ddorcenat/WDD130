@@ -225,7 +225,6 @@ nav a {
 #hero-msg #darker-text{
     color: black;
 }
-
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
