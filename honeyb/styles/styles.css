@@ -1,3 +1,4 @@
+
 #conten{
     max-width: 1600px;
     margin: 0 auto;
@@ -8,6 +9,10 @@
 }
 #hero-img{
     width: 100%;
+}
+header{
+    background-color: #0F5558;
+    
 }
 footer{
     display: flex;
