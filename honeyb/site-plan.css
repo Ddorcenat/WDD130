@@ -35,7 +35,7 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
-  background-color:#0F5558;
+  background-color:#DF8555;
 }
 img {
   display: block;
@@ -58,7 +58,7 @@ header {
   padding: 1em;
   text-align: left;
   color: var(--headline-color-on-color);
-  background-color:#5EB1BF;
+  background-color:#0F5558;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -217,11 +217,13 @@ nav a:hover {
   width: 500px;
   height: 300px;
   object-fit: cover;
-  border:#DF8555 solid 2px;
+  border:#B7E1EC solid 2px;
 }
 footer{
   display: flex;
   justify-content: space-around;
+  background-color:#0F5558;
+  font-family:"Asul", "Noto Serif";
 }
 .social{
   display: flex;
@@ -229,4 +231,9 @@ footer{
   flex-grow: 2;
   align-items: center;
 }
-
+.message{
+  font-family:"Noto Serif"; 
+}
+.msg h2{
+  font-family: "Asul";
+}
