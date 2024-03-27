@@ -5,7 +5,7 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #B7E1EC;
+  --primary-color: #2a762c;
   --secondary-color: #0F5558;
   --accent1-color: #DF8555;
   --accent2-color: #5EB1BF;
@@ -20,7 +20,7 @@ Fonts are separated by a | */
   --paragraph-color-on-white:#5EB1BF; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #DF8555; /* paragraph text on a colored background */ 
   --paragraph-background-color: #0F5558  ;
-  --nav-link-color: #B7E1EC;
+  --nav-link-color: #2a762c;
   --nav-background-color: #0F5558;
   --nav-hover-link-color: #DF8555;
   --nav-hover-background-color: #0F5558;
@@ -187,7 +187,7 @@ nav a:hover {
   height: 25%;
 }
 #hero{
-  background-image: url("images/pexels-mareefe-1638280.jpg");
+  /* background-image: url("images/pexels-mareefe-1638280.jpg"); */
   background-size: cover;
   background-position: center;
   padding:100px;
@@ -217,7 +217,7 @@ nav a:hover {
   width: 500px;
   height: 300px;
   object-fit: cover;
-  border:#B7E1EC solid 2px;
+  border:#2a762c solid 2px;
 }
 footer{
   display: flex;

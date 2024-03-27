@@ -19,7 +19,7 @@ footer{
     justify-content: space-around;
     align-items: center;
 }
-/* These are teh code frmo my Css plan*/
+/* These are the code from my Css site.plan*/
 body {
     max-width: 1200px;
     margin: 0 auto;
@@ -178,7 +178,8 @@ body {
     height: 25%;
   }
   #hero{
-    background-image: url("images/pexels-mareefe-1638280.jpg");
+    /* So this code commmented below is a background setting that is not necessary which could affect the code */
+    /* background-image: url("images/pexels-mareefe-1638280.jpg"); */
     background-size: cover;
     background-position: center;
     padding:100px;
@@ -208,7 +209,7 @@ body {
     width: 500px;
     height: 300px;
     object-fit: cover;
-    border:#B7E1EC solid 2px;
+    border:#2a762c solid 2px;
   }
   footer{
     display: flex;
