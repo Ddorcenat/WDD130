@@ -345,3 +345,16 @@ footer a, footer p{
  height: 700px;
  padding: 0px 25px;
 }
+/* div#end-of-session{ */
+/* display: flex; */
+/* max-width: 500px; */
+/* max-height: 300px; */
+/* width: 500px; */
+/* height: 300px; */
+/* object-fit: cover; */
+/* border: #2a762c solid 2px; */
+/* } */
+
+#blogbackground{
+ display: flex;
+}
